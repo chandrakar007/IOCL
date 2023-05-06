@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Group Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcases.AdminMenuTest">
+        <methods>
+          <include name="verifyAddUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.AdminMenuTest -->
+      <class name="testcases.LoginPageTest">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Group Test] -->
