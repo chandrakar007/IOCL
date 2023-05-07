@@ -115,7 +115,7 @@ public class CustomerMenu extends BaseClass {
 		Robot rb = new Robot();
 		rb.delay(2000);
 		// put path to file in a clipboard
-		StringSelection ss = new StringSelection("F:\\IOCL_Automation_Data\\Logo\\imageiocl.jpg");
+		StringSelection ss = new StringSelection("C:\\Chandrakar\\Logo\\imageiocl.jpg");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 		// CTRL+V
 		rb.keyPress(KeyEvent.VK_CONTROL); // Press on CTRL key

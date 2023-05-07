@@ -27,7 +27,7 @@ public class DataProviders {
 
 	@DataProvider(name = "LoginCredentials")
 	public String[][] getLoginData() throws IOException {
-		String path = "C:\\Users\\chandrakar.dwivedi\\eclipse-workspace\\E2EIOCL\\ExcelFile\\IOCL_Data.xlsx";
+		String path = "C:\\Chandrakar\\IOCLExcelFile\\DataFile.xlsx";
 
 		ExcelDataProvider exceldatapr = new ExcelDataProvider(path);
 		int totalrows = exceldatapr.getRowCount("LoginCredentials");
@@ -77,7 +77,7 @@ public class DataProviders {
 
 	@DataProvider(name = "customerinfo")
 	public Object[][] getCustomerData() throws IOException {
-		String path = "F:\\IOCL_Automation_Data\\IOCLExcelFile\\AddCustomer.xlsx";
+		String path = "C:\\Chandrakar\\IOCLExcelFile\\DataFile.xlsx";
 		//String path = "C:\\Users\\chandrakar.dwivedi\\eclipse-workspace\\E2EIOCL\\ExcelFile\\IOCL_Data.xlsx";
 
 		File file = new File(path);
@@ -108,7 +108,7 @@ public class DataProviders {
 	@DataProvider(name = "merchantInfo")
 	public Object[][] getMerchantData() throws IOException {
 		//String path = "F:\\IOCL_Automation_Data\\IOCLExcelFile\\AddCustomer.xlsx";
-		String path = "C:\\Users\\chandrakar.dwivedi\\eclipse-workspace\\E2EIOCL\\ExcelFile\\IOCL_Data.xlsx";
+		String path = "C:\\Chandrakar\\IOCLExcelFile\\DataFile.xlsx";
 
 		File file = new File(path);
 

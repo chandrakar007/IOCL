@@ -5,10 +5,10 @@
     <classes>
       <class name="testcases.CustomerMenuTest">
         <methods>
-          <include name="beforeSuite"/>
           <include name="setup"/>
-          <include name="verifyAddCustomer"/>
+          <include name="verifyAddCustomer" invocation-numbers="0"/>
           <include name="afterSuite"/>
+          <include name="loadConfig"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.CustomerMenuTest -->
